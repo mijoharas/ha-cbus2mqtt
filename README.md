@@ -6,14 +6,14 @@ cbus2mqtt is a Home Assistant add on runs the cmqttd process to communicate with
 This add-on is currently in beta awaiting real world testing.  It is at the end of the day simply running the cmqttd Docker container with some minor modifictions. Testing has shown it passes through the home assistant configuration options correctly and the local build version was tested on a CBUS CNI.  (I dont have CBUS so my testing is limited)
 
 ## Installation
-To install the add-on click here - [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FMtSamsonite%2Fha-cbus2mqtt)
+To install the add-on click here - [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmijoharas%2Fha-cbus2mqtt)
 
 Alternativley to add the required repository  to your Home Assistant Add-on Store.
 1.	From the main menu in Home Assistant select System, then Add-ons
 2.	In the lower right corner click on the blue button titled ADD-ON-STORE
 3.	In the top right click on the 3 vertical dots (be careful to click on the home assistant dots and not your browser menu dots)
 4.	Select Repositories
-5.	Paste the following URL and click Add  https://github.com/MtSamsonite/ha-cbus2mqtt
+5.	Paste the following URL and click Add  https://github.com/mijoharas/ha-cbus2mqtt
 
 Once you have added the repository, you can then select the cbus2mqtt Add on from the available selection.
 
@@ -29,7 +29,7 @@ You will also need to supply a username and password to access the MQTT Broker. 
 
 You will also need to install the MQTT integration for Home Assistant and ensure that the MQTT discovery option is enabled.  This will allow Home Assistant to discover the lighting groups on your CBUS lighting circuit and import them as lights and sensors.
 
-Home Assistant add on repository : https://github.com/MtSamsonite/ha-cbus2mqtt
+Home Assistant add on repository : https://github.com/mijoharas/ha-cbus2mqtt
 ## Basic Configuration
 For detailed instructions on how the various parameters influence the behaviour of cmqttd please refer to the documentation provided by the author of cmqttd - https://cbus.readthedocs.io/en/latest/cmqttd.html.
 
