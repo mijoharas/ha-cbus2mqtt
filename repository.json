@@ -1,5 +1,5 @@
 {
-  "name": "cbus2mqtt",
+  "name": "cbus2mqtt-multi-network",
   "url": "https://github.com/mijoharas/ha-cbus2mqtt",
   "maintainer": "https://github.com/mijoharas"
 }

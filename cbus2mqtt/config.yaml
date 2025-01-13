@@ -1,4 +1,4 @@
-name: "cbus2mqtt"
+name: "cbus2mqtt-multi-network"
 description: "Home Assistant Add-on that runs cmqttd (https://cbus.readthedocs.io/en/latest/cmqttd.html)"
 version: "0.6.1"
 slug: "cbus2mqtt"

@@ -2,6 +2,9 @@
 A cmqttd add on for Home Assistant
 cbus2mqtt is a Home Assistant add on runs the cmqttd process to communicate with CBUS PCI or CNI devices.
 
+# TODO
+document changes in repo.
+
 # Warning
 This add-on is currently in beta awaiting real world testing.  It is at the end of the day simply running the cmqttd Docker container with some minor modifictions. Testing has shown it passes through the home assistant configuration options correctly and the local build version was tested on a CBUS CNI.  (I dont have CBUS so my testing is limited)
 
