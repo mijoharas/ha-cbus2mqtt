@@ -1,5 +1,5 @@
 name: "cbus2mqtt-multi-network"
-description: "Home Assistant Add-on that runs cmqttd (https://cbus.readthedocs.io/en/latest/cmqttd.html)"
+description: "Home Assistant Add-on that runs cmqttd (https://cbus.readthedocs.io/en/latest/cmqttd.html) - multi-network-version"
 version: "0.6.1"
 slug: "cbus2mqtt"
 url: "https://github.com/mijoharas/ha-cbus2mqtt/cbus2mqtt"
@@ -27,6 +27,7 @@ schema:
   mqtt_password: "str?"
   tcp_or_serial: list(Use a IP connection to CBUS|Use a serial connection to CBUS)
   cbus_connection_string: str
+  cbus_network_number: "str?"
   use_tls_for_mqtt: bool?
   mqtt_broker_port: int(1,99999)?
   broker_ca: str?
